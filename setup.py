@@ -64,6 +64,7 @@ setup(
     python_requires=">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
     setup_requires=["pytest-runner"],
     install_requires=[
+        "Click",
         "python-dateutil>=2.4",
         "six>=1.10",
         "text-unidecode==1.3",
