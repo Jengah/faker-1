@@ -50,6 +50,9 @@ def cli(fake, lang, repeat, sep, verbose, version):
     if version:
         click.echo("faker {}".format(VERSION))
 
+    if args:
+        print("args", *args)
+
     if fake:
         for i in range(repeat):
             print_doc(fake, lang=lang)
